@@ -1,3 +1,4 @@
-FROM mjjonone/mjj:amd64
-ENV PORT=7860
-RUN chmod 777 /app
+FROM lemoc/test:latest
+ENV DOMAIN=https://vddbds.onrender.com
+ENV SWITCH=1
+
